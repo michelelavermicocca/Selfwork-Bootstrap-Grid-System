@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog Cinema</title>
+
+</head>
+
+
+<body>
+    <nav class="navbar-custom">
+        <div>
+            <img src="./media/icon_blog_cinema.jpeg" alt="Logo CineBlog - Blog di Cinema" class="logo">
+        </div>
+
+        <div>
+            <a href="./link/home.html" class="link">
+                Home
+            </a>
+        </div>
+        <div>
+            <a href="./link/chi_siamo.html" class="link">
+                Chi siamo
+            </a>
+        </div>
+    </nav>
+
+
+    <!--Hero Section-->
+    <header class="hero">
+        <h1>
+            Blog Cinema
+        </h1>
+    </header>
+
+
+    <div class="film-cards">
+        <div class="film-1">
+            <h2>
+                Wild Horse Nine
+            </h2>
+            <a href="https://www.rottentomatoes.com/m/wild_horse_nine" target="_blank">
+                <img src="/media/film_1.jpeg" alt="img-film-1" class="img-film-1">
+            </a>
+            <h4>
+                Shortly before the 1973 Chilean coup, CIA agents Chris (John Malkovich) and Lee (Sam Rockwell) are dispatched from Santiago to Easter island by their bureau chief, MJ (Steve Buscemi). Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students (Mariana di Girolamo and Ailín Salas) threatens to send everyone’s trip to this remote paradise sideways.
+            </h4>
+        </div>
+
+
+        <div class="film-2">
+            <h2>
+                Godzilla Minus Zero
+            </h2>
+            <a href="https://www.rottentomatoes.com/m/godzilla_minus_zero" target="_blank">
+                <img src="/media/film_2.jpg" alt="img-film-2" class="img-film-2">
+            </a>
+            <h4>
+                War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.
+            </h4>
+        </div>
+
+
+        <div class="film-3">
+        <h2>
+            Ebenezer
+        </h2>
+        <a href="https://www.rottentomatoes.com/m/ebenezer_2026" target="_blank">
+            <img src="/media/film_3.jpeg" alt="img-film-3" class="img-film-3">
+        </a>
+        <h4>
+            Haunted by three spirits on Christmas Eve, miserly businessman Ebenezer Scrooge confronts his past, present and future for one final chance to change his ways and reconcile with those he has wronged.
+        </h4>
+        </div>
+    </div>
+
+
+    <!--Form-->
+    <section class="form-custom">
+        <form>
+            <h3>
+                Lavora con noi!
+            </h3>
+            <input type="email"> E-mail
+            <input type="password"> Password
+            <button type="button" class="btn-solid" data-bs-toggle="dialog" data-bs-target="#exampleDialog">
+                Invia!
+            </button>
+        </form>
+    </section>
+
+
+    <!--Modal-->
+    <dialog class="dialog" id="exampleDialog">
+        <div class="dialog-header">
+        <h3 class="dialog-title"></h3>
+        <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+        </div>
+        <div class="dialog-body">
+        <h2>
+            Grazie per averci contattato!
+        </h2>
+        </div>
+        <div class="dialog-footer">
+            <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
+        </div>
+    </dialog>
+
+
+    <!--Bootstrap script-->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    
+
+    <footer>
+        <div class="info-custom">
+            <ul>
+                <li class="list-custom">
+                    <p>
+                        P.Iva 21435466256234
+                    </p>
+                </li>
+                <li class="list-custom">
+                    <p>
+                        1994@ Sede: Bari, Italia
+                    </p>
+                <li class="list-custom">
+                    <i class="bi bi-facebook">
+                        <a href="https://www.facebook.com/" class="link">
+                            Link Facebook
+                        </a>
+                    </i>            
+                </li>
+                <li class="list-custom">
+                    <i class="bi bi-instagram">
+                        <a href="https://www.instagram.com/" class="link">
+                            Link Instagram
+                        </a>
+                    </i>
+                </li>
+                <li class="list-custom"> 
+                    <i class="bi bi-twitter-x">
+                        <a href="https://x.com/" class="link">
+                            Link X
+                        </a>
+                    </i>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
